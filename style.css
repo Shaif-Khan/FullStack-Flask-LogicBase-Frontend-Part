@@ -3,13 +3,17 @@ body{
     background-color: white;
     font-family: "Roboto Slab", serif;;
     scroll-behavior: smooth;
-    background: linear-gradient(90deg, rgb(0, 0, 18),skyblue);     
+    background: linear-gradient(90deg, rgb(0, 0, 18),skyblue); 
+    width:auto;    
 }
-video{
-    max-width:100%;
+img,video{
+    width:auto;
     height:auto;
-    overflow-x: hidden; 
     
+    
+}
+body{
+    overflow-x: hidden;
 }
 
 .navigation{
@@ -273,6 +277,7 @@ video{
     overflow-x: hidden;
     position:absolute;
     left:0;
+    
 }
 .add-section h2{
     font-size:50px;
