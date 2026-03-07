@@ -5,7 +5,7 @@ body{
     scroll-behavior: smooth;
     background: linear-gradient(90deg, rgb(0, 0, 18),skyblue);     
 }
-img, video{
+video{
     max-width:100%;
     height:auto;
     overflow-x: hidden; 
@@ -475,6 +475,12 @@ footer ul li,a{
         margin-left:10px;
         
     }   
+    .main-para{
+        font-size:60px;
+    }
+    .sec-para{
+        font-size: 15px;
+    }
     
     
 }
