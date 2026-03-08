@@ -1,11 +1,11 @@
 
 body{
     background-color: white;
-    font-family: "Roboto Slab", serif;
+    font-family: "Roboto Slab", serif;;
     scroll-behavior: smooth;
     background: linear-gradient(90deg, rgb(0, 0, 18),skyblue); 
     width:auto;    
-}
+}   
 img,video{
     width:auto;
     height:auto;
@@ -38,7 +38,7 @@ body{
 
 .navbar li{
     padding-left:30px;
-    font-size:15px;      
+    font-size:18px;      
 }
 .navbar a{
     text-decoration: none;
@@ -70,9 +70,11 @@ body{
     margin-left:40px;
     margin-bottom:0;
     display:inline-block;
+    color:whitesmoke;
 }
 
 .sec-para{
+    color:whitesmoke;
     font-size:20px;
     font-weight:bold;
     margin-left:40px;
@@ -104,6 +106,7 @@ body{
     color:#fff;
     font-weight:bold;
     background: #000;
+    font-size:13px;
     cursor:pointer;
 }
 .v-btn:hover{
@@ -118,6 +121,7 @@ body{
     padding:10px 30px;
     border-radius:1000px;
     border:none;
+    font-size:13px;
     color:#fff;
     font-weight:bold;
     background: #2563eb;
@@ -174,7 +178,7 @@ body{
     column-gap: 30px;
 }
 .about-pic{
-    width:220px;
+    width:250px;
     border-radius: 50px;
     border:3px solid #f1d491;
     text-align: center;
@@ -489,7 +493,5 @@ footer ul li,a{
     
     
 }
-
-
 
 
